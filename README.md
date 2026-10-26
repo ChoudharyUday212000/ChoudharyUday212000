@@ -1,50 +1,52 @@
 # Hi, I'm Uday 👋
 
-**Software Engineer | Java · Spring Boot · APIs · Distributed Systems**
+**Software Engineer | Java · Spring Boot · Distributed Systems · Fintech**
 
-I build backend services and data workflows with a focus on reliability, clear APIs, and maintainable code. My interests include fintech/payment systems, idempotent processing, asynchronous workflows, and graph data.
+I build backend services and data workflows with a focus on reliable APIs, payment workflows, asynchronous processing, and maintainable code. I enjoy working on idempotency, reconciliation, message-driven systems, and graph data.
 
 ## Featured projects
 
 ### 💳 Payment Reconciliation Engine
-A Java 17 domain engine that compares gateway and ledger records, classifies missing entries and mismatches, and highlights duplicate references.
-- Java 17 · JUnit 5 · Maven
-- Immutable domain records, deterministic results and focused tests
-- [View project](https://github.com/ChoudharyUday212000/Java-Practice/tree/main/projects/payment-reconciliation-engine)
+Java 17 domain engine that compares gateway and ledger records and classifies missing transactions, amount/currency mismatches, and duplicate references.
+- Java 17 · JUnit 5 · Maven · GitHub Actions
+- [View repository](https://github.com/ChoudharyUday212000/payment-reconciliation-engine)
 
 ### 🔁 Redis Idempotency API
-A Spring Boot API demonstrating safe retry behavior using Redis idempotency keys and request fingerprints.
+Spring Boot API demonstrating safe retries using Redis-backed idempotency keys and payload fingerprints.
 - Java 17 · Spring Boot · Redis · Docker
-- Identical retries reuse a response; key reuse with a different payload is rejected
-- [View project](https://github.com/ChoudharyUday212000/Java-Practice/tree/main/projects/redis-idempotency-api)
+- [View repository](https://github.com/ChoudharyUday212000/redis-idempotency-api)
+
+### 🔔 Event-Driven Notification Service
+Kafka-backed notification API with asynchronous consumers, bounded retries, and dead-letter routing.
+- Java 17 · Spring Boot · Apache Kafka · Docker
+- [View source and setup](https://github.com/ChoudharyUday212000/Java-Practice/tree/main/projects/event-driven-notification-service)
 
 ### 🕸️ Venture Capital Graph + AI Query Engine
-A graph data pipeline that loads venture data into Neo4j and explores it using guarded, read-only Cypher queries.
+Neo4j graph ingestion pipeline with relationship validation and a guarded natural-language-to-Cypher query flow.
 - Python · Neo4j · FastAPI
-- [View project](https://github.com/ChoudharyUday212000/Venture-Graph)
+- [View repository](https://github.com/ChoudharyUday212000/Venture-Graph)
 
 ### 🔎 Job Search Platform
-A Spring Boot REST API for job listings, profiles, applications and supporting workflows.
+Spring Boot REST API for job listings and application workflows.
 - Java · Spring Boot · Spring Data JPA · MySQL
-- [View project](https://github.com/ChoudharyUday212000/JobSearchPlatform)
+- [View repository](https://github.com/ChoudharyUday212000/JobSearchPlatform)
 
-## Tech I work with
+## Tech stack
 
 **Backend:** Java, Spring Boot, REST APIs, Node.js  
 **Data:** MySQL, PostgreSQL, MongoDB, Redis, Neo4j  
-**Messaging & platforms:** Kafka, Docker, AWS fundamentals  
+**Messaging & Platforms:** Apache Kafka, Docker, AWS fundamentals  
 **Engineering:** Maven, Git, GitHub Actions, JUnit, API design
 
-## Current focus
+## Engineering focus
 
-- Building robust backend APIs with clear boundaries and useful tests
-- Understanding distributed-system trade-offs: retries, idempotency, reconciliation and event processing
-- Improving observability, deployment workflows and system-design skills
+- Reliable API design and idempotent request processing
+- Event-driven architecture, retries, and failure handling
+- Data validation, reconciliation, and observability
+- Testable code, documented trade-offs, and continuous integration
 
-## Connect
-
-[GitHub](https://github.com/ChoudharyUday212000)
+[GitHub repositories](https://github.com/ChoudharyUday212000?tab=repositories)
 
 ---
 
-*Project descriptions distinguish implemented demo behavior from production integrations; please check each README for setup, tests and known limitations.*
+*Demo projects clearly document what is simulated and what would need to be added for production use.*
