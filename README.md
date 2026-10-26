@@ -19,7 +19,7 @@ Spring Boot API demonstrating safe retries using Redis-backed idempotency keys a
 ### 🔔 Event-Driven Notification Service
 Kafka-backed notification API with asynchronous consumers, bounded retries, and dead-letter routing.
 - Java 17 · Spring Boot · Apache Kafka · Docker
-- [View source and setup](https://github.com/ChoudharyUday212000/Java-Practice/tree/main/projects/event-driven-notification-service)
+- [View source and setup](https://github.com/ChoudharyUday212000/event-driven-notification-service)
 
 ### 🕸️ Venture Capital Graph + AI Query Engine
 Neo4j graph ingestion pipeline with relationship validation and a guarded natural-language-to-Cypher query flow.
